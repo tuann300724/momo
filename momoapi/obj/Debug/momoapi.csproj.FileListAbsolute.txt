@@ -1,0 +1,17 @@
+E:\pro3api\momoapi\momoapi\bin\Debug\momoapi.exe.config
+E:\pro3api\momoapi\momoapi\bin\Debug\momoapi.exe
+E:\pro3api\momoapi\momoapi\bin\Debug\momoapi.pdb
+E:\pro3api\momoapi\momoapi\bin\Debug\Newtonsoft.Json.dll
+E:\pro3api\momoapi\momoapi\bin\Debug\Newtonsoft.Json.xml
+E:\pro3api\momoapi\momoapi\obj\Debug\momoapi.csproj.AssemblyReference.cache
+E:\pro3api\momoapi\momoapi\obj\Debug\momoapi.Form1.resources
+E:\pro3api\momoapi\momoapi\obj\Debug\momoapi.Properties.Resources.resources
+E:\pro3api\momoapi\momoapi\obj\Debug\momoapi.csproj.GenerateResource.cache
+E:\pro3api\momoapi\momoapi\obj\Debug\momoapi.csproj.CoreCompileInputs.cache
+E:\pro3api\momoapi\momoapi\obj\Debug\momoapi.csproj.CopyComplete
+E:\pro3api\momoapi\momoapi\obj\Debug\momoapi.exe
+E:\pro3api\momoapi\momoapi\obj\Debug\momoapi.pdb
+E:\pro3api\momoapi\momoapi\bin\Debug\momoapi.exe.manifest
+E:\pro3api\momoapi\momoapi\bin\Debug\momoapi.application
+E:\pro3api\momoapi\momoapi\obj\Debug\momoapi.exe.manifest
+E:\pro3api\momoapi\momoapi\obj\Debug\momoapi.application

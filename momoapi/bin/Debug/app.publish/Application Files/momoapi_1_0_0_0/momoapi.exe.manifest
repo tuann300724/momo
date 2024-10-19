@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="momoapi.exe" version="1.0.0.0" publicKeyToken="e341c05bf7814c93" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="momoapi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="momoapi.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="momoapi.exe" size="42400">
+      <assemblyIdentity name="momoapi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+g6K5CBT8bvgLzPTxuxjM4Cz+Pwy8D8UdhCPlu6yX8c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="711952">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4eJ697B+7t9c5xqSVfBCKBam/FhJpIPGcU4bRyBE+p0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="momoapi.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=TUAN\Admin" issuerKeyHash="ec025909a408b3e6be75b6efc6967730f3b4876a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>W60dswOhHG/t9n6hEJ+GIcMj/nSqJhcYRjKgxfvBNKg=</DigestValue></Reference></SignedInfo><SignatureValue>Skjj2NHrpVpUSkg1KmoJp2evQa7zBg9QMmZDgtx+yY5dasZe6GUhSBlGFD3lU0ACvlibFSUmZ2fmt86mLYjLHM8Npa6DCkk/ggVUuvxecsbDLPxULL8UuH+P9+GYrFASL8AZ8lw04jnN5L5dl+nhWNqNvtY5T/KgG9ww7i8yPxQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x7+IRCwAsTuVup2x1f9YVD+DAcQtll8JUCRiqRW55p/yoqpSbId49VXXuywOBa2cjlqGLZg3xsb8h4gWIjKc3eQF/4a960/uOPfpm2AMYFKiHQZ/R4QGkA2o2dUcbil/oeAeymj12R52uvg3aOA4O3ruzmj11P+ztNcgqmavM/k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a834c1fbc5a03246181726aa74fe23c321869f10a17ef6ed6f1ca103b31dad5b" Description="" Url=""><as:assemblyIdentity name="momoapi.exe" version="1.0.0.0" publicKeyToken="e341c05bf7814c93" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TUAN\Admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>t0XaP0vZmHzGK9Vdvx8QQGVf0uL87vcYTLeDXruJxEk=</DigestValue></Reference></SignedInfo><SignatureValue>jlUs1v+thCkq6jpG5KuXR/IUJpzMfovBwgTapbtACv8sIVJwAfeQeuiabXlrrBLdiI0adEivtd6OeZixdvvRY+869qiX6PNl4ONBbA+abClHXUvjQz1hsHNnxZyxXwfdpk41GPlWFEOir5+wv1YJuaeEns1wy7ivhAxC+9kOTcY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x7+IRCwAsTuVup2x1f9YVD+DAcQtll8JUCRiqRW55p/yoqpSbId49VXXuywOBa2cjlqGLZg3xsb8h4gWIjKc3eQF/4a960/uOPfpm2AMYFKiHQZ/R4QGkA2o2dUcbil/oeAeymj12R52uvg3aOA4O3ruzmj11P+ztNcgqmavM/k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQYReyUydJZp1BAotSiLsE1DANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAVABVAEEATgBcAEEAZABtAGkAbjAeFw0yNDEwMTkxNDA3MTlaFw0yNTEwMTkyMDA3MTlaMB8xHTAbBgNVBAMeFABUAFUAQQBOAFwAQQBkAG0AaQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHv4hELACxO5W6nbHV/1hUP4MBxC2WXwlQJGKpFbnmn/KiqlJsh3j1Vde7LA4FrZyOWoYtmDfGxvyHiBYiMpzd5AX/hr3rT+449+mbYAxgUqIdBn9HhAaQDajZ1RxuKX+h4B7KaPXZHna6+Ddo4Dg7eu7OaPXU/7O01yCqZq8z+QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGMX2wjBAupX6ZnUAL5tfuM2w3Uau966/UtrCTfcwMdcFglmdwVvOMqO2a7Rbx0QxtpJRQJ1LYJ2R6/IDUROvfuYjPjmw+24NfSCr4dMtxeX1hE97eotm2f/6Z7+XbSjUo1BpRCRyyFX3DEQeEkbP07WUycm113KgEUp2MWS0/ge</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
